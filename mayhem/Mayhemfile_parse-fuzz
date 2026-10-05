@@ -1,0 +1,7 @@
+project: savantenvs/highfive
+target: parse-fuzz-buggy-mhh-run-4
+# origin: https://app.mayhem.security/mayhemheroes/highfive/parse-fuzz/4
+
+cmds:
+  - cmd: /mayhem/fuzz_highfive
+    libfuzzer: true
